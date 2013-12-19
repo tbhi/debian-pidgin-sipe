@@ -6,7 +6,7 @@ DEB_CONFIGURE_EXTRA_FLAGS := --enable-purple --disable-telepathy
 	dh $@
 
 override_dh_auto_configure:
-	./autogen.sh
+	aclocal
 	dh_auto_configure -- $(DEB_CONFIGURE_EXTRA_FLAGS)
 
 override_dh_auto_install:
