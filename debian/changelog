@@ -1,4 +1,10 @@
-pidgin-sipe (1.17.0-1) UNRELEASED; urgency=low
+pidgin-sipe (1.17.3-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Tristan Hill <stan@saticed.me.uk>  Wed, 18 Dec 2013 10:58:57 +0000
+
+pidgin-sipe (1.17.0-1) unstable; urgency=low
 
   * New upstream release.
         - Feature #62: Support for Lync 2013 Unified Contact Store
